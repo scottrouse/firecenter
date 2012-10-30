@@ -143,5 +143,27 @@
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
+  
+  <!-- Begin University of Montana Footer Code. Adapted from http://umt.edu/webcommittee/standards/design.aspx -->
+  <div id="um-footer">
+    <nav id="um-bottomnav">
+        <ul>
+            <li class="first odd">
+                <a href="http://www.umt.edu/">The University of Montana</a>
+            </li>
+            <li class="even">
+                Missoula, MT
+            </li>
+            <li class="odd">
+                <a href="http://umt.edu/comments">Contact UM</a>
+            </li>
+            <li class="last even">
+                <a href="http://www.umt.edu/home/accessibility">Accessibility</a>
+            </li>
+        </ul>
+    </nav> <!-- /#um-bottomnav -->
+  </div> <!-- /#um-footer -->
+  <!-- End University of Montana Footer Code -->
+  
 </body>
 </html>
