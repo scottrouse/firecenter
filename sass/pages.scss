@@ -42,6 +42,64 @@ body {
 }
 
 /*
+ * UM Header
+ */
+#um-header {
+  background-color: #FFFFFF;
+  border-bottom: 8px solid $um-maroon;
+  @include single-box-shadow($shadow, 0, 0, 2px);
+  $zen-column-count: 2;
+  @include zen-grid-container;
+  
+  #um-logo {
+    @include zen-grid-item(1,1);
+  }
+  
+  #um-navsearch {
+    @include zen-grid-item(1,2);
+    @include zen-grid-container;
+    
+    #um-topnav {
+      @include zen-grid-item(1,1);
+    }
+    
+    #um-search {
+      @include zen-grid-item(1,2);
+    }
+  }
+}
+
+@media all and (min-width: 0) and (max-width: 959px) {
+
+  #um-header {
+    background-color: red;
+    $zen-column-count: 1;
+    @include zen-grid-container;
+    
+    #um-logo {
+      @include zen-grid-item(1,1);
+    }
+    
+    #um-navsearch {
+      @include zen-grid-item(1,1);
+      @include zen-clear;
+      
+      #um-topnav {
+        @include zen-grid-item(1,1);
+        @include zen-clear;
+      }
+      
+      #um-search {
+        @include zen-grid-item(1,1);
+        @include zen-clear;
+      }
+    }
+  }
+
+}
+
+
+/*
  * Header
  */
 
