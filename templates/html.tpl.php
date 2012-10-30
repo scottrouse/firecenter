@@ -110,8 +110,8 @@
     <div id="um-logo">
       <a href="http://www.umt.edu/" title="The University of Montana"><img alt="The University of Montana" src="http://jour.umt.edu/sites/all/themes/jschool/images/um/umlogo200w.png" title="UM Logo"></a> <!-- @todo — Replace hard link to UM logo with image replacement. -->
     </div>
-    <div id="um-topnav">
-        <nav id="navrightlinks_wrap">
+    <div id="um-navsearch">
+        <nav id="um-topnav">
             <ul>
                 <li class="first odd">
                     <a href="http://www.umt.edu/home/atoz/">A to Z Index</a>
