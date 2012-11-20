@@ -72,6 +72,10 @@ body {
     
     #um-topnav {
       @include zen-grid-item(1,1);
+      
+      li {
+        @include inline-nav($um-gray);
+      }
     }
     
     #um-search {
