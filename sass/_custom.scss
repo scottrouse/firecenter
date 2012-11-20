@@ -57,3 +57,15 @@
     }
   }
 }
+
+
+@mixin inline-nav($color) {
+  float: left;
+  padding: 0 0.5em;
+  border-right: 1px solid $color;
+  line-height: 1;
+  
+  &.last {
+    border-right: none;
+  }
+}
