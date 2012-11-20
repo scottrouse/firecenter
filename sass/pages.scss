@@ -171,7 +171,7 @@ body {
   
   a {
     display: block;
-    @include replace-text('../images/firecenter.svg');
+    @include replace-text('firecenter.svg');
     width: 200px;
     height: 207px;
   }
