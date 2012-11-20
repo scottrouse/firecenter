@@ -42,6 +42,108 @@ body {
 }
 
 /*
+ * UM Header
+ */
+#um-header {
+  background-color: #FFFFFF;
+  border-bottom: 8px solid $um-maroon;
+  @include single-box-shadow($shadow, 0, 0, 2px);
+  $zen-column-count: 16;
+  @include zen-grid-container;
+  @include umbranding;
+  
+  #um-logo {
+    @include zen-grid-item(9,1);
+  }
+  
+  #um-navsearch {
+    @include zen-grid-item(7,10);
+    @include zen-grid-container;
+    $zen-column-count: 7;
+    
+    #um-topnav {
+      @include zen-grid-item(4,1);
+      margin-top: 2em;
+      
+      ul {
+        padding: 0;
+        margin: 0;
+      }
+      
+      li {
+        @include inline-nav($um-gray);
+      }
+    }
+    
+    #um-search {
+      @include zen-grid-item(3,5);
+      margin-top: 2em;
+      
+      form {
+        
+        label {
+          @include element-invisible;
+        }
+      }
+    }
+  }
+}
+
+/*
+ * UM Footer
+ */
+#um-footer {
+  @include umbranding;
+  
+  #um-bottomnav {
+    width: 100%;
+    
+    ul {
+      margin: 0 0 1em 0;
+      padding: 0;
+      text-align: center;
+      
+      li {
+        @include inline-nav($um-gray);
+        
+      }
+    }
+  }
+}
+
+@media all and (min-width: 0) and (max-width: 959px) {
+
+  #um-header {
+    background-color: red;
+    $zen-column-count: 1;
+    @include zen-grid-container;
+    
+    #um-logo {
+      @include zen-grid-item(1,1);
+    }
+    
+    #um-navsearch {
+      @include zen-grid-item(1,1);
+      @include zen-clear;
+      
+      #um-topnav {
+        @include zen-grid-item(1,1);
+        @include zen-clear;
+      }
+      
+      #um-search {
+        @include zen-grid-item(1,1);
+        @include zen-clear;
+      }
+    }
+  }
+
+}
+
+
+
+
+/*
  * Header
  */
 

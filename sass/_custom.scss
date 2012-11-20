@@ -57,3 +57,35 @@
     }
   }
 }
+
+
+@mixin inline-nav($color) {
+  display: inline;
+  padding: 0 0.5em;
+  border-right: 1px solid $color;
+  line-height: 1;
+  
+  &.first {
+    padding-left: 0;
+  }
+  
+  &.last {
+    border-right: none;
+    padding-right: 0;
+  }
+}
+
+@mixin umbranding {
+  color: $um-gray;
+  font-size: 0.7em;
+  font-family: $verdana;
+  
+  a {
+    color: $um-gray;
+    text-decoration: none;
+    
+    &:hover {
+      color: $black;
+    }
+  }
+}
