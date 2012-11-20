@@ -46,6 +46,7 @@ li a.active {
 
 #navigation {
   /* overflow: hidden; */ /* Sometimes you want to prevent overlapping with main div. */
+  position: relative;
 
   .block {
     margin-bottom: 0;
