@@ -168,6 +168,13 @@ body {
   margin: 0;
   font-size: 2em;
   line-height: 1.5em;
+  
+  a {
+    display: block;
+    @include replace-text('../images/firecenter.svg');
+    width: 200px;
+    height: 207px;
+  }
 
   a:link,
   a:visited {
