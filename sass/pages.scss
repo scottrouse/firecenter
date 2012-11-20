@@ -89,6 +89,28 @@ body {
   }
 }
 
+/*
+ * UM Footer
+ */
+#um-footer {
+  @include umbranding;
+  
+  #um-bottomnav {
+    width: 100%;
+    
+    ul {
+      margin: 0 0 1em 0;
+      padding: 0;
+      text-align: center;
+      
+      li {
+        @include inline-nav($um-gray);
+        
+      }
+    }
+  }
+}
+
 @media all and (min-width: 0) and (max-width: 959px) {
 
   #um-header {
