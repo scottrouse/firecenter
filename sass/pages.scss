@@ -50,17 +50,7 @@ body {
   @include single-box-shadow($shadow, 0, 0, 2px);
   $zen-column-count: 7;
   @include zen-grid-container;
-  color: $um-gray;
-  font-size: 0.7em;
-  
-  a {
-    color: $um-gray;
-    text-decoration: none;
-    
-    &:hover {
-      color: $black;
-    }
-  }
+  @include umbranding;
   
   #um-logo {
     @include zen-grid-item(4,1);

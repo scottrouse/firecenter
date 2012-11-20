@@ -69,3 +69,18 @@
     border-right: none;
   }
 }
+
+@mixin umbranding {
+  color: $um-gray;
+  font-size: 0.7em;
+  font-family: $verdana;
+  
+  a {
+    color: $um-gray;
+    text-decoration: none;
+    
+    &:hover {
+      color: $black;
+    }
+  }
+}
