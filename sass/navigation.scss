@@ -46,6 +46,9 @@ li a.active {
 
 #navigation {
   /* overflow: hidden; */ /* Sometimes you want to prevent overlapping with main div. */
+  position: relative;
+  background: $orange;
+  @include background-image(linear-gradient(top, lighten($orange, 10), darken($orange, 10)));
 
   .block {
     margin-bottom: 0;
