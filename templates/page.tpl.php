@@ -119,6 +119,8 @@
       </hgroup><!-- /#name-and-slogan -->
     <?php endif; ?>
 
+    <?php print render($page['featured']); ?>
+
     <?php if ($secondary_menu): ?>
       <nav id="secondary-menu" role="navigation">
         <?php print theme('links__system_secondary_menu', array(
