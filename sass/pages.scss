@@ -48,22 +48,22 @@ body {
   background-color: #FFFFFF;
   border-bottom: 8px solid $um-maroon;
   @include single-box-shadow($shadow, 0, 0, 2px);
-  $zen-column-count: 7;
+  $zen-column-count: 16;
   @include zen-grid-container;
   @include umbranding;
   
   #um-logo {
-    @include zen-grid-item(4,1);
+    @include zen-grid-item(9,1);
   }
   
   #um-navsearch {
-    @include zen-grid-item(3,5);
+    @include zen-grid-item(7,10);
     @include zen-grid-container;
     $zen-column-count: 7;
     
     #um-topnav {
       @include zen-grid-item(4,1);
-      margin-top: 3em;
+      margin-top: 2em;
       
       ul {
         padding: 0;
@@ -139,6 +139,8 @@ body {
   }
 
 }
+
+
 
 
 /*
