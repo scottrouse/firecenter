@@ -48,7 +48,7 @@ body {
   background-color: #FFFFFF;
   border-bottom: 8px solid $um-maroon;
   @include single-box-shadow($shadow, 0, 0, 2px);
-  $zen-column-count: 2;
+  $zen-column-count: 7;
   @include zen-grid-container;
   color: $um-gray;
   font-size: 0.7em;
@@ -63,15 +63,22 @@ body {
   }
   
   #um-logo {
-    @include zen-grid-item(1,1);
+    @include zen-grid-item(4,1);
   }
   
   #um-navsearch {
-    @include zen-grid-item(1,2);
+    @include zen-grid-item(3,5);
     @include zen-grid-container;
+    $zen-column-count: 7;
     
     #um-topnav {
-      @include zen-grid-item(1,1);
+      @include zen-grid-item(4,1);
+      margin-top: 3em;
+      
+      ul {
+        padding: 0;
+        margin: 0;
+      }
       
       li {
         @include inline-nav($um-gray);
@@ -79,7 +86,15 @@ body {
     }
     
     #um-search {
-      @include zen-grid-item(1,2);
+      @include zen-grid-item(3,5);
+      margin-top: 2em;
+      
+      form {
+        
+        label {
+          @include element-invisible;
+        }
+      }
     }
   }
 }
