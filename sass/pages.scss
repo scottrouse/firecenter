@@ -218,7 +218,7 @@ body {
 
 .flexslider {
   border: none;
-  @include single-box-shadow(0);
+  @include single-box-shadow(0,0,0,0);
   @include border-radius(0);
   margin: 0;
 }

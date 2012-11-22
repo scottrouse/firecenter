@@ -388,9 +388,9 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003219}}
 .flexslider {
   border: none;
-  -webkit-box-shadow: 0px 0px 5px 0;
-  -moz-box-shadow: 0px 0px 5px 0;
-  box-shadow: 0px 0px 5px 0;
+  -webkit-box-shadow: 0 0 0 0;
+  -moz-box-shadow: 0 0 0 0;
+  box-shadow: 0 0 0 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
