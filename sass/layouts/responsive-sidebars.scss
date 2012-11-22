@@ -83,11 +83,25 @@ $zen-auto-include-item-base: false;
     position: relative;
   }
   #navigation {
-    position: absolute;
-    top: 0; /* Move the navbar up inside #main's padding. */
-    height: 3em;
     width: $zen-grid-width;
   }
+}
+
+#name-and-slogan {
+  @include zen-grid-item(1,1);
+}
+
+.region-featured {
+  @include zen-grid-item(4,2);
+}
+
+#maskhead {
+  @include zen-grid-container();
+}
+
+.region-secondary-nav {
+  @include zen-grid-container();
+  @include zen-grid-item(5,1);
 }
 
 @media all and (min-width: 480px) and (max-width: 959px) {

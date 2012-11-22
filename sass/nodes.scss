@@ -15,6 +15,9 @@
   }
 
   .node-title { /* Node title */
+    a {
+      text-decoration: none;
+    }
   }
 
   .user-picture { /* The picture of the node author */

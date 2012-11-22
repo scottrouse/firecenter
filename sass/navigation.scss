@@ -47,8 +47,7 @@ li a.active {
 #navigation {
   /* overflow: hidden; */ /* Sometimes you want to prevent overlapping with main div. */
   position: relative;
-  background: $orange;
-  @include background-image(linear-gradient(top, lighten($orange, 10), darken($orange, 10)));
+  @include navbar($fc-accent3, $fc-light);
 
   .block {
     margin-bottom: 0;
@@ -59,22 +58,18 @@ li a.active {
     @include element-invisible();
   }
 
-  ul.links, /* Main menu and secondary menu links */
-  ul.menu { /* Menu block links */
-    margin: 0;
-    padding: 0;
-    text-align: left; /* LTR */
 
-    li { /* A simple method to get navigation links to appear in one line. */
-      float: left; /* LTR */
-      padding: 0 10px 0 0; /* LTR */
-      list-style-type: none;
-      list-style-image: none;
-    }
-  }
 }
 
 .region-navigation {
+}
+
+.region-secondary-nav {
+    @include navbar($fc-accent3, $fc-light);
+}
+
+.block-menu-block {
+  margin: 0;
 }
 
 /*
