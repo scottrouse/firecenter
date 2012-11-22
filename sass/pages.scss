@@ -216,6 +216,13 @@ body {
   clear: both; /* Clear the logo */
 }
 
+.flexslider {
+  border: none;
+  @include box-shadow(0);
+  @include border-radius(0);
+  margin: 0;
+}
+
 /*
  * Main (container for everything else)
  */
