@@ -46,6 +46,10 @@
 
 .fc-list {
   
+  a {
+    text-decoration: none;
+  }
+  
   ul {
     list-style: none;
     padding: 0;
@@ -53,9 +57,17 @@
     
     li {
       margin: 0;
-      padding: 0;
+      padding: 1em;
       background: $fc-accent1;
       @include background-image(linear-gradient(top, lighten($fc-accent1, 5), darken($fc-accent1, 5)));
+      
+      h4 {
+        margin-top: 0;
+      }
+      
+      p:last-child {
+        margin-bottom: 0;
+      }
       
       &:hover {
         background: lighten($fc-accent1, 10);

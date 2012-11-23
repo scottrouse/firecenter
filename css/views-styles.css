@@ -55,15 +55,19 @@
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\0000349}}
+.fc-list a {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\0000353}}
 .fc-list ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\0000358}}
 .fc-list ul li {
   margin: 0;
-  padding: 0;
+  padding: 1em;
   background: #8da893;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9bb3a1), color-stop(100%, #7f9d85));
   background-image: -webkit-linear-gradient(top, #9bb3a1, #7f9d85);
@@ -71,7 +75,15 @@
   background-image: -o-linear-gradient(top, #9bb3a1, #7f9d85);
   background-image: linear-gradient(top, #9bb3a1, #7f9d85);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\0000364}}
+.fc-list ul li h4 {
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\0000368}}
+.fc-list ul li p:last-child {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\0000372}}
 .fc-list ul li:hover {
   background: #aabeae;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #aabeae), color-stop(100%, #9bb3a1));
