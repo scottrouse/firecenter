@@ -43,3 +43,24 @@
     }
   }
 }
+
+.fc-list {
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    li {
+      margin: 0;
+      padding: 0;
+      background: $fc-light;
+      @include background-image(linear-gradient(top, lighten($fc-light, 5), darken($fc-light, 5)));
+      
+      &:hover {
+        background: lighten($fc-light, 10);
+        @include background-image(linear-gradient(top, lighten($fc-light, 10), lighten($fc-light, 5)));
+      }
+    }
+  }
+}
