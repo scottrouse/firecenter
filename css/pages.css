@@ -415,16 +415,21 @@ body {
 /*
  * Content
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003251}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003245}}
+#content {
+  margin-bottom: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003252}}
 .breadcrumb {
   /* The path to the current page in the form of a list of links */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003252}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003253}}
 .breadcrumb ol {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003256}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003257}}
 .breadcrumb li {
   display: inline;
   list-style-type: none;
@@ -432,7 +437,7 @@ body {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003269}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003270}}
 h1.title,
 h2.node-title,
 h2.block-title,
@@ -443,37 +448,37 @@ h3.title {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003273}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003274}}
 tr.even {
   /* Some tables have rows marked even or odd. */
   /* background-color: #eee; */
   /* Drupal core uses a #eee background */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003277}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003278}}
 tr.odd {
   /* background-color: #eee; */
   /* Drupal core uses a #eee background */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003281}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003282}}
 div.messages {
   /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
   margin: 1.5em 0;
   /* Drupal core uses "6px 0" margin */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003284}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003285}}
 div.messages ul {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003290}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003291}}
 div.status {
   /* Normal priority messages */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003294}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003295}}
 div.warning,
 tr.warning {
   /* Medium priority messages */
@@ -481,82 +486,82 @@ tr.warning {
   /* Drupal core uses: 1px solid #f0c020 */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003299}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003300}}
 div.error,
 tr.error {
   /* High priority messages. See also the .error declaration below. */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003302}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003303}}
 .error {
   /* Errors that are separate from div.messages status messages. */
   /* color: #e55; */
   /* Drupal core uses a #e55 background */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003306}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003307}}
 .warning {
   /* Warnings that are separate from div.messages status messages. */
   /* color: #e09010; */
   /* Drupal core uses a #e09010 background */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003311}}
 .tabs {
   /* See also the tabs.css file. */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003314}}
 .region-help {
   /* Help text on a page */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003317}}
 .more-help-link {
   /* Link to more help */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003320}}
 .region-content {
   /* Wrapper for the actual page content */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003323}}
 ul.inline {
   /* List of links generated by theme_links() */
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003326}}
 ul.inline li {
   display: inline;
   list-style-type: none;
   /* padding: 0 1em 0 0; */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003332}}
 span.field-label {
   /* The inline field label used by the Fences module */
   padding: 0 1em 0 0;
   /* LTR */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003336}}
 .item-list .pager {
   /* A list of page numbers when more than 1 page of content is available */
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003339}}
 .item-list .pager li {
   /* Each page number in the pager list */
   padding: 0 0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003344}}
 .feed-icon {
   /* The link to the RSS or Atom feed for the current list of content */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003347}}
 .more-link {
   /* Aggregator, blog, and forum more link */
 }
@@ -579,7 +584,7 @@ span.field-label {
 /*
  * Page bottom
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/pages\.scss}line{font-family:\00003381}}
 .region-bottom {
   /* Wrapper for any blocks placed in the page bottom region */
 }

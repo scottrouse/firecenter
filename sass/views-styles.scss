@@ -48,6 +48,7 @@
   
   a {
     text-decoration: none;
+    display: block;
   }
   
   ul {
@@ -69,16 +70,22 @@
       }
       
       h4 {
-        margin-top: 0;
+        float: left;
+        margin: 0 1em 0 0;
       }
       
+      p {
+        margin: 0.5em 0;
+        clear: left;
+        
+      }
       p:last-child {
         margin-bottom: 0;
       }
       
       &:hover {
         background: lighten($fc-accent1, 10);
-        @include background-image(linear-gradient(top, lighten($fc-accent1, 10), lighten($fc-accent1, 5)));
+        @include background-image(linear-gradient(top, lighten($fc-accent1, 20), lighten($fc-accent1, 10)));
       }
     }
   }
