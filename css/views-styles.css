@@ -64,19 +64,19 @@
 .fc-list ul li {
   margin: 0;
   padding: 0;
-  background: #e0d0aa;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e7dabd), color-stop(100%, #d9c697));
-  background-image: -webkit-linear-gradient(top, #e7dabd, #d9c697);
-  background-image: -moz-linear-gradient(top, #e7dabd, #d9c697);
-  background-image: -o-linear-gradient(top, #e7dabd, #d9c697);
-  background-image: linear-gradient(top, #e7dabd, #d9c697);
+  background: #8da893;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9bb3a1), color-stop(100%, #7f9d85));
+  background-image: -webkit-linear-gradient(top, #9bb3a1, #7f9d85);
+  background-image: -moz-linear-gradient(top, #9bb3a1, #7f9d85);
+  background-image: -o-linear-gradient(top, #9bb3a1, #7f9d85);
+  background-image: linear-gradient(top, #9bb3a1, #7f9d85);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\0000360}}
 .fc-list ul li:hover {
-  background: #eee5cf;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eee5cf), color-stop(100%, #e7dabd));
-  background-image: -webkit-linear-gradient(top, #eee5cf, #e7dabd);
-  background-image: -moz-linear-gradient(top, #eee5cf, #e7dabd);
-  background-image: -o-linear-gradient(top, #eee5cf, #e7dabd);
-  background-image: linear-gradient(top, #eee5cf, #e7dabd);
+  background: #aabeae;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #aabeae), color-stop(100%, #9bb3a1));
+  background-image: -webkit-linear-gradient(top, #aabeae, #9bb3a1);
+  background-image: -moz-linear-gradient(top, #aabeae, #9bb3a1);
+  background-image: -o-linear-gradient(top, #aabeae, #9bb3a1);
+  background-image: linear-gradient(top, #aabeae, #9bb3a1);
 }
