@@ -60,6 +60,7 @@
       padding: 1em;
       background: $fc-accent1;
       @include background-image(linear-gradient(top, lighten($fc-accent1, 5), darken($fc-accent1, 5)));
+      border-bottom: 1px solid darken($fc-accent1, 20);
       
       h4 {
         margin-top: 0;
