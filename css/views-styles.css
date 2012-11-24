@@ -202,5 +202,5 @@ table.draggable {
 .term-block ul li .field-name-title .field-item a {
   text-decoration: none;
   font-weight: bold;
-  color: #1d1e24;
+  color: rgba(29, 30, 36, 0.6);
 }
