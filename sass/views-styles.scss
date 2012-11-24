@@ -130,8 +130,6 @@ table.draggable {
         position: absolute;
         top: 1em;
         width: 100%;
-        background: $fc-accent2;
-        /* background: rgba($fc-accent2, 0.8); */
         @include background-image(linear-gradient(top, lighten(rgba($fc-accent2, 0.8), 5), darken(rgba($fc-accent2, 0.8), 5)));
         
         .field-item {
