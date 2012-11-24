@@ -94,3 +94,33 @@
 table.draggable {
   width: 100%;
 }
+
+.term-block {
+  @include zen-grid-container;
+  $zen-column-count: 4;
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    li {
+      
+      &.views-row-1 {
+        @include zen-grid-item(1,1);
+      }
+      
+      &.views-row-2 {
+        @include zen-grid-item(1,2);
+      }
+      
+      &.views-row-3 {
+        @include zen-grid-item(1,3);
+      }
+      
+      &.views-row-4 {
+        @include zen-grid-item(1,4);
+      }
+    }
+  }
+}
