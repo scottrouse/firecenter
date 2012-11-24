@@ -106,6 +106,10 @@ table.draggable {
     
     li {
       
+      .taxonomy-term {
+        position: relative;
+      }
+      
       &.views-row-1 {
         @include zen-grid-item(1,1);
       }
@@ -120,6 +124,12 @@ table.draggable {
       
       &.views-row-4 {
         @include zen-grid-item(1,4);
+      }
+      
+      .field-name-title {
+        position: absolute;
+        top: 1em;
+        width: 100%;
       }
     }
   }

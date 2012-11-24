@@ -128,6 +128,10 @@ table.draggable {
   padding: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003109}}
+.term-block ul li .taxonomy-term {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003113}}
 .term-block ul li.views-row-1 {
   float: left;
   width: 25%;
@@ -141,7 +145,7 @@ table.draggable {
   box-sizing: border-box;
   word-wrap: break-word;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003117}}
 .term-block ul li.views-row-2 {
   float: left;
   width: 25%;
@@ -155,7 +159,7 @@ table.draggable {
   box-sizing: border-box;
   word-wrap: break-word;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003121}}
 .term-block ul li.views-row-3 {
   float: left;
   width: 25%;
@@ -169,7 +173,7 @@ table.draggable {
   box-sizing: border-box;
   word-wrap: break-word;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003125}}
 .term-block ul li.views-row-4 {
   float: left;
   width: 25%;
@@ -182,4 +186,10 @@ table.draggable {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   word-wrap: break-word;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003129}}
+.term-block ul li .field-name-title {
+  position: absolute;
+  top: 1em;
+  width: 100%;
 }
