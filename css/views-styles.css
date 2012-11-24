@@ -193,14 +193,15 @@ table.draggable {
   top: 1em;
   width: 100%;
   background: #c18e44;
+  background: rgba(193, 142, 68, 0.6);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003136}}
 .term-block ul li .field-name-title .field-item {
   margin: 0.25em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003139}}
 .term-block ul li .field-name-title .field-item a {
   text-decoration: none;
   font-weight: bold;
-  color: rgba(29, 30, 36, 0.6);
+  color: #1d1e24;
 }

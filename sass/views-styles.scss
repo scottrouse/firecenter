@@ -131,6 +131,7 @@ table.draggable {
         top: 1em;
         width: 100%;
         background: $fc-accent2;
+        background: rgba($fc-accent2, 0.6);
         
         .field-item {
           margin: 0.25em;
@@ -138,7 +139,7 @@ table.draggable {
           a {
             text-decoration: none;
             font-weight: bold;
-            color: rgba($fc-dark, 0.6);
+            color: $fc-dark;
           }
         }
       }
