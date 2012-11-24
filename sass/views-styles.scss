@@ -130,6 +130,17 @@ table.draggable {
         position: absolute;
         top: 1em;
         width: 100%;
+        background: $fc-accent2;
+        
+        .field-item {
+          margin: 0.25em;
+          
+          a {
+            text-decoration: none;
+            font-weight: bold;
+            color: $fc-dark;
+          }
+        }
       }
     }
   }
