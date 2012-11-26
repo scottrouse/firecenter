@@ -131,6 +131,7 @@ table.draggable {
         top: 1em;
         width: 100%;
         @include background-image(linear-gradient(top, lighten(rgba($fc-accent2, 0.8), 5), darken(rgba($fc-accent2, 0.8), 5)));
+        text-align: center;
         
         .field-item {
           margin: 0.25em;
