@@ -97,7 +97,7 @@ table.draggable {
 
 .term-block {
   @include zen-grid-container;
-  $zen-column-count: 4;
+/*   $zen-column-count: 4; */
   
   ul {
     list-style: none;
@@ -110,6 +110,7 @@ table.draggable {
         position: relative;
       }
       
+/*
       &.views-row-1 {
         @include zen-grid-item(1,1);
       }
@@ -125,6 +126,7 @@ table.draggable {
       &.views-row-4 {
         @include zen-grid-item(1,4);
       }
+*/
       
       .field-name-title {
         position: absolute;
