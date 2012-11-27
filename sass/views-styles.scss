@@ -146,3 +146,44 @@ table.draggable {
     }
   }
 }
+
+@media all and (min-width: 480px) {
+  
+  .term-block {
+    zen-column-count: 1;
+    
+    ul {
+      
+      li {
+        
+        &.views-row {
+          @include zen-grid-item(1,1);
+        }
+      }
+    }
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 959px) {
+    .term-block {
+    zen-column-count: 2;
+    
+    ul {
+      
+      li {
+        
+        &.views-row-odd {
+          @include zen-grid-item(1,1);
+        }
+        
+        &.views-row-even {
+          @include zen-grid-item(1,2);
+        }
+      }
+    }
+  }
+}
+
+@media all and (min-width: 960px) {
+  
+}
