@@ -188,18 +188,13 @@ table.draggable {
 
 @media all and (min-width: 960px) {
   .term-block {
-    @include zen-grid-container;
     $zen-column-count: 4;
     
     ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
       
       li {
         
         .taxonomy-term {
-          position: relative;
         }
         
         &.views-row-1 {
@@ -216,24 +211,6 @@ table.draggable {
         
         &.views-row-4 {
           @include zen-grid-item(1,4);
-        }
-        
-        .field-name-title {
-          position: absolute;
-          top: 1em;
-          width: 100%;
-          @include background-image(linear-gradient(top, lighten(rgba($fc-accent2, 0.8), 5), darken(rgba($fc-accent2, 0.8), 5)));
-          text-align: center;
-          
-          .field-item {
-            margin: 0.25em;
-            
-            a {
-              text-decoration: none;
-              font-weight: bold;
-              color: $fc-dark;
-            }
-          }
         }
       }
     }

@@ -233,26 +233,7 @@ table.draggable {
   }
 }
 @media all and (min-width: 960px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000352}}
-  .term-block:before, .term-block:after {
-    content: "";
-    display: table;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000356}}
-  .term-block:after {
-    clear: both;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003194}}
-  .term-block ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003201}}
-  .term-block ul li .taxonomy-term {
-    position: relative;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003200}}
   .term-block ul li.views-row-1 {
     float: left;
     width: 25%;
@@ -266,7 +247,7 @@ table.draggable {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003204}}
   .term-block ul li.views-row-2 {
     float: left;
     width: 25%;
@@ -280,7 +261,7 @@ table.draggable {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003208}}
   .term-block ul li.views-row-3 {
     float: left;
     width: 25%;
@@ -294,7 +275,7 @@ table.draggable {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003212}}
   .term-block ul li.views-row-4 {
     float: left;
     width: 25%;
@@ -307,27 +288,5 @@ table.draggable {
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     word-wrap: break-word;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003221}}
-  .term-block ul li .field-name-title {
-    position: absolute;
-    top: 1em;
-    width: 100%;
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(199, 154, 87, 0.8)), color-stop(100%, rgba(177, 129, 59, 0.8)));
-    background-image: -webkit-linear-gradient(top, rgba(199, 154, 87, 0.8), rgba(177, 129, 59, 0.8));
-    background-image: -moz-linear-gradient(top, rgba(199, 154, 87, 0.8), rgba(177, 129, 59, 0.8));
-    background-image: -o-linear-gradient(top, rgba(199, 154, 87, 0.8), rgba(177, 129, 59, 0.8));
-    background-image: linear-gradient(top, rgba(199, 154, 87, 0.8), rgba(177, 129, 59, 0.8));
-    text-align: center;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003228}}
-  .term-block ul li .field-name-title .field-item {
-    margin: 0.25em;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/drupal\/sites\/all\/themes\/firecenter\/sass\/views-styles\.scss}line{font-family:\00003231}}
-  .term-block ul li .field-name-title .field-item a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #1d1e24;
   }
 }
